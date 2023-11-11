@@ -1,3 +1,7 @@
+import Reservation from "@/sections/Reservation";
+
 export default function Home() {
-  return <div>Home</div>;
+  return <div>
+    <Reservation />
+  </div>;
 }
