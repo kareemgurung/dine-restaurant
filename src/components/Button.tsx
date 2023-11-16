@@ -1,11 +1,18 @@
 import Link from "next/link";
 
-const Button = () => {
+type ButtonProps = {
+  title: string;
+  variant: "btn-dark" | "btn-light";
+  link: string;
+  width: "btn-small" | "btn-large"
+};
+
+const Button = ({ title, variant, link, width }: ButtonProps) => {
   return (
     <Link
-      href="/booking"
-      className="bg-transparent text-xl/4 text-white font-semibold uppercase tracking-widest border border-solid border-white px-14 py-6 hover:bg-white hover:text-cod-gray">
-      book a table
+      href={link}
+      className={`block text-xl/4 font-semibold uppercase tracking-widest border border-solid  px-14 py-6 text-center ${variant} ${width}`}>
+      {title}
     </Link>
   );
 };

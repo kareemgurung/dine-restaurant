@@ -16,12 +16,33 @@
   }
 
   h4 {
-    @apply text-xl/7 font-semibold
+    @apply text-xl/7 font-semibold;
   }
 }
 
 @layer utilities {
   .max-width {
     @apply max-w-[1110px] mx-auto px-0;
+  }
+
+  .btn-dark {
+    @apply bg-transparent text-white border-white hover:bg-white hover:text-cod-gray;
+  }
+
+  .btn-light {
+    @apply bg-cod-gray text-white border-cod-gray hover:bg-white hover:text-cod-gray;
+  }
+
+  .btn-small {
+    @apply w-[245px];
+  }
+
+  .btn-large {
+    @apply w-[444px];
+  }
+
+  .after-underline {
+    @apply after:content-[""] after:absolute  after:w-12 after:h-[1px] after:bg-beaver after:bottom-0 after:inset-x-0 after:mx-auto
+    lg:after:w-24 lg:after:inset-y-0 lg:after:my-auto lg:after:inset-[unset] lg:after:mx-[unset] lg:after:left-[-125px];
   }
 }

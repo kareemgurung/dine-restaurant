@@ -16,7 +16,8 @@ const config: Config = {
         "ready-bg-mobile": "url('/images/homepage/ready-bg-mobile.jpg')",
         "ready-bg-tablet": "url('/images/homepage/ready-bg-tablet.jpg')",
         "ready-bg-desktop": "url('/images/homepage/ready-bg-desktop.jpg')",
-        "ready-bg-large-desktop": "url('/images/homepage/ready-bg-desktop@2x.jpg')",
+        "ready-bg-large-desktop":
+          "url('/images/homepage/ready-bg-desktop@2x.jpg')",
         "curve-bottom-right":
           "url('/images/patterns/patterns-curve-bottom-right.svg')",
       },
@@ -26,6 +27,7 @@ const config: Config = {
         mirage: "#17192B",
         "ebony-clay": "#242B37",
         "shuttle-gray": "#5C6779",
+        "event-gray": "#4C4C4C",
       },
       screens: {
         lg: "1440px",
@@ -43,8 +45,15 @@ const config: Config = {
         "100": "100% 100%",
       },
       backgroundPosition: {
-        "reservation-mobile": "top" 
-      }
+        "reservation-mobile": "top",
+      },
+      boxShadow: {
+        "3xl": "0px 75px 100px -50px rgba(56, 66, 85, 0.50)",
+      },
+      content: {
+        divide: 'url("/images/patterns/divide.svg")',
+        lines: 'url("/images/patterns/lines.svg")',
+      },
     },
   },
   plugins: [],

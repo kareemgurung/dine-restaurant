@@ -7,7 +7,7 @@ const Reservation = () => {
         <h2 className="tracking-tight md:tracking-[-0.03125rem] text-center text-white">
           Ready to make a reservation?
         </h2>
-        <Button />
+        <Button title="book a table" variant="btn-dark" link="/booking" width="btn-small"/>
       </div>
     </section>
   );
