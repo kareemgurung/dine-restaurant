@@ -14,8 +14,8 @@ const Events = () => {
   };
 
   return (
-    <section>
-      <div className="flex flex-col items-center justify-center text-center pt-20 pb-24 px-6 gap-12 md:px-10 md:pt[120px] lg:max-width lg:flex-row lg:justify-between lg:gap-[125px]">
+    <section className="events-bg">
+      <div className="flex flex-col items-center justify-center text-center pt-20 pb-24 px-6 gap-12 md:px-10 md:pt-[120px] lg:max-width lg:flex-row lg:justify-between lg:gap-[125px] lg:py-40">
         <div className="relative w-full h-[400px] md:h-[360px] shadow-3xl md:px-12 md:w-3/4 lg:w-[540px] lg:h-[600px] lg:px-[unset] lg:flex-1">
           <Image
             src={events[card].img}

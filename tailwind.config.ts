@@ -18,8 +18,10 @@ const config: Config = {
         "ready-bg-desktop": "url('/images/homepage/ready-bg-desktop.jpg')",
         "ready-bg-large-desktop":
           "url('/images/homepage/ready-bg-desktop@2x.jpg')",
-        "curve-bottom-right":
-          "url('/images/patterns/patterns-curve-bottom-right.svg')",
+        "bottomm-right":
+          'url("/images/patterns/pattern-curve-bottom-right.svg")',
+        "top-left": 'url("/images/patterns/pattern-curve-top-left.svg")',
+        "top-right": 'url("/images/patterns/pattern-curve-top-right.svg")',
       },
       colors: {
         beaver: "#9E7F66",
@@ -46,13 +48,11 @@ const config: Config = {
       },
       backgroundPosition: {
         "reservation-mobile": "top",
+        "events-bg-tablet": "-517px 0",
+        "events-bg-desktop": "-350px 0",
       },
       boxShadow: {
         "3xl": "0px 75px 100px -50px rgba(56, 66, 85, 0.50)",
-      },
-      content: {
-        divide: 'url("/images/patterns/divide.svg")',
-        lines: 'url("/images/patterns/lines.svg")',
       },
     },
   },

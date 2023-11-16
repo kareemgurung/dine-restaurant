@@ -45,4 +45,8 @@
     @apply after:content-[""] after:absolute  after:w-12 after:h-[1px] after:bg-beaver after:bottom-0 after:inset-x-0 after:mx-auto
     lg:after:w-24 lg:after:inset-y-0 lg:after:my-auto lg:after:inset-[unset] lg:after:mx-[unset] lg:after:left-[-125px];
   }
+
+  .events-bg {
+    @apply md:bg-top-right bg-[length:895px_320px] bg-no-repeat bg-events-bg-tablet lg:bg-events-bg-desktop;
+  }
 }
