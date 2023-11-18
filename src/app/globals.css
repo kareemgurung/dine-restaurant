@@ -49,4 +49,12 @@
   .events-bg {
     @apply md:bg-top-right bg-[length:895px_320px] bg-no-repeat bg-events-bg-tablet lg:bg-events-bg-desktop;
   }
+
+  .menu-line {
+    @apply before:content-[""] before:absolute before:w-full before:h-[1px] before:bg-white/10 before:top-[-24px];
+  }
+
+  .menu-line-2 {
+    @apply before:content-[""] before:absolute before:w-8 before:h-[1px] before:bg-beaver before:right-[-24px] before:top-[18px];
+  } 
 }

@@ -18,3 +18,24 @@ export const events = [
     desc: "Are you looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work with you to make your event a hit with everyone.",
   },
 ];
+
+export const menu = [
+  {
+    id: "1",
+    title: "seared salmon fillet",
+    desc: "Our locally sourced salmon served with a refreshing buckwheat summer salad.",
+    img: "/images/homepage/salmon-desktop-tablet@2x.jpg",
+  },
+  {
+    id: "2",
+    title: "rosemary filet mignon",
+    desc: "Our prime beef served to your taste with a delicious choice of seasonal sides.",
+    img: "/images/homepage/beef-desktop-tablet@2x.jpg",
+  },
+  {
+    id: "3",
+    title: "summer fruit chocolate mousse",
+    desc: "Creamy mousse combined with summer fruits and dark chocolate shavings.",
+    img: "/images/homepage/chocolate-desktop-tablet@2x.jpg",
+  },
+];
