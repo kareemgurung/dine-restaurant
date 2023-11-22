@@ -39,3 +39,18 @@ export const menu = [
     img: "/images/homepage/chocolate-desktop-tablet@2x.jpg",
   },
 ];
+
+export const hero = [
+  {
+    id: "1",
+    title: "Enjoyable place for all the family",
+    desc: "Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange a tour of the farm before your meal.",
+    img: "/images/homepage/enjoyable-place-tablet@2x.jpg",
+  },
+  {
+    id: "2",
+    title: "The most locally sourced food",
+    desc: "All our ingredients come directly from our farm or local fishery. So you can be sure that you’re eating the freshest, most sustainable food.",
+    img: "/images/homepage/locally-sourced-tablet@2x.jpg",
+  },
+];

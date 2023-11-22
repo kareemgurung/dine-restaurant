@@ -55,6 +55,15 @@
   }
 
   .menu-line-2 {
-    @apply before:content-[""] before:absolute before:w-8 before:h-[1px] before:bg-beaver before:right-[-24px] before:top-[18px];
+    @apply before:hidden before:md:block before:content-[""] before:absolute before:w-8 before:h-[1px] before:bg-beaver before:right-[-24px] before:top-[18px];
   } 
+
+  .hero-bg-first {
+    @apply md:bg-top-right bg-[length:895px_320px] bg-no-repeat bg-events-bg-tablet lg:bg-events-bg-desktop;
+  }
+
+  .hero-bg-second {
+    @apply md:bg-top-right bg-[length:895px_320px] bg-no-repeat bg-events-bg-tablet lg:bg-events-bg-desktop;
+  }
+
 }

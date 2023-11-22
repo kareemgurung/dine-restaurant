@@ -22,6 +22,9 @@ const config: Config = {
           'url("/images/patterns/pattern-curve-bottom-right.svg")',
         "top-left": 'url("/images/patterns/pattern-curve-top-left.svg")',
         "top-right": 'url("/images/patterns/pattern-curve-top-right.svg")',
+        "hero-bg-mobile": 'url("/images/homepage/hero-bg-mobile@2x.jpg")',
+        "hero-bg-tablet": 'url("/images/homepage/hero-bg-tablet@2x.jpg")',
+        "hero-bg-desktop": 'url("/images/homepage/hero-bg-desktop@2x.jpg")',
       },
       colors: {
         beaver: "#9E7F66",
