@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply font-bold text-3xl/10 md:text-4xl/[4rem] lg:text-5xl/[5rem];
+    @apply font-normal text-3xl/10 tracking-[-0.025rem] md:text-4xl/[4rem] md:tracking-[-0.0375rem] lg:text-5xl/[5rem] lg:tracking-[-0.0625rem];
   }
 
   h2 {
@@ -64,6 +64,10 @@
 
   .hero-bg-second {
     @apply md:bg-top-right bg-[length:895px_320px] bg-no-repeat bg-events-bg-tablet lg:bg-events-bg-desktop;
+  }
+
+  .header-bg {
+    @apply bg-hero-bg-mobile bg-no-repeat bg-cover md:bg-hero-bg-tablet lg:bg-hero-bg-desktop;
   }
 
 }
