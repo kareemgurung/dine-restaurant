@@ -25,6 +25,10 @@ const config: Config = {
         "hero-bg-mobile": 'url("/images/homepage/hero-bg-mobile@2x.jpg")',
         "hero-bg-tablet": 'url("/images/homepage/hero-bg-tablet@2x.jpg")',
         "hero-bg-desktop": 'url("/images/homepage/hero-bg-desktop@2x.jpg")',
+        "booking-bg-mobile": 'url("/images/booking/hero-bg-mobile@2x.jpg")',
+        "booking-bg-tablet": 'url("/images/booking/hero-bg-tablet@2x.jpg")',
+        "booking-bg-desktop": 'url("/images/booking/hero-bg-desktop@2x.jpg")',
+
       },
       colors: {
         beaver: "#9E7F66",
@@ -33,6 +37,8 @@ const config: Config = {
         "ebony-clay": "#242B37",
         "shuttle-gray": "#5C6779",
         "event-gray": "#4C4C4C",
+        "silver-gray": "#8e8e8e",
+        red: "#B54949",
       },
       screens: {
         lg: "1440px",

@@ -56,6 +56,7 @@ const Events = () => {
               variant="btn-light"
               link="/booking"
               width="btn-small"
+              type="button"
             />
           </div>
         </div>

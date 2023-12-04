@@ -18,6 +18,15 @@
   h4 {
     @apply text-xl/7 font-semibold;
   }
+
+  /* remove arrow button from input type number element */
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number'] {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
+  }
 }
 
 @layer utilities {
@@ -38,7 +47,7 @@
   }
 
   .btn-large {
-    @apply w-[444px];
+    @apply w-full;
   }
 
   .after-underline {
@@ -68,6 +77,14 @@
 
   .header-bg {
     @apply bg-hero-bg-mobile bg-no-repeat bg-cover md:bg-hero-bg-tablet lg:bg-hero-bg-desktop;
+  }
+
+  .booking-header-bg {
+    @apply bg-booking-bg-mobile bg-no-repeat bg-cover md:bg-booking-bg-tablet lg:bg-booking-bg-desktop;
+  }
+
+  .form-position {
+    @apply bg-white mb-[86px] h-[585px] mt-[-144px] max-w-[540px] mx-auto md:mt-[-320px] md:mb-[120px] lg:absolute lg:right-0 lg:mb-[100px] lg:mt-[-380px] lg:z-10;
   }
 
 }

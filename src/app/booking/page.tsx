@@ -1,7 +1,13 @@
+import BookingHeader from "@/sections/BookingHeader";
+import BookingHero from "@/sections/BookingHero";
+
 const Page = () => {
   return (
-    <div>Booking</div>
-  )
-}
+    <div>
+      <BookingHeader />
+      <BookingHero />
+    </div>
+  );
+};
 
-export default Page
+export default Page;
